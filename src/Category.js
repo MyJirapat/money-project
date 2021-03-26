@@ -10,6 +10,9 @@ import firebase from 'firebase/app'
 import 'firebase/firestore'
 import 'firebase/auth'
 
+
+//   connect firevase 
+
 if (firebase.apps.length === 0) {
     firebase.initializeApp(config);
 }
